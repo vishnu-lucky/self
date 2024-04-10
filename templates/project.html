@@ -1,0 +1,126 @@
+{% extends 'base.html' %} {% block title %}Project{% endblock %} {% block content %}
+<div class="container mt-4">
+    <div class="jumbotron text-white bg-dark">
+        <h4>MY WORK</h4>
+        <p>Welcome to my profile, Copyright © [<h1>vishnu lucky</h1> ] All Rights Reserved..</p>
+    </div>
+
+
+
+    <h5 class="mt-4">Projects</h5>
+    <div class="card-deck mt-3">
+        <!-- Founder 1 -->
+        <div class="card founder-card">
+            {% comment %} <img src="https://cdn-icons-png.flaticon.com/512/4791/4791635.png" class="card-img-top" alt="projet 1"> {% endcomment %}
+            <div class="card-body">
+                <h5 class="card-title">KSHIRA- Milk Vendor Website</h5>
+                {% comment %} <p class="card-text"><a href="https://github.com/YakkalaPrudhviRaj/MILK-VENDOR-WEBSITE">Browse</a></p> {% endcomment %}
+            </div>
+        </div>
+
+
+        <div class="card founder-card">
+            {% comment %} <img src="https://cdn2.iconfinder.com/data/icons/mobile-apps-10/512/13_contact_profile-13-512.png" class="card-img-top" alt="project 2"> {% endcomment %}
+            <div class="card-body">
+                <h5 class="card-title">PORTFOLIO</h5>
+                {% comment %} <p class="card-text"><a href="https://github.com/YakkalaPrudhviRaj/PROFILE">Browse</a></p> {% endcomment %}
+            </div>
+        </div>
+        <!-- Founder 2 -->
+
+
+        <!-- Founder 3 -->
+        <div class="card founder-card">
+            {% comment %} <img src="https://play-lh.googleusercontent.com/VPqK75BwKMtTDFF6UQS6E3GYdYqzvZfddDxoKRH-DSlXIcYLN_EeSy5OXKx0bhBTtLUU" class="card-img-top" alt="project 3"> {% endcomment %}
+            <div class="card-body">
+                <h5 class="card-title">TO-DO LIST</h5>
+                {% comment %} <p class="card-text"><a href="https://yakkalaprudhviraj.github.io/ToDo-List/">Browse</a></p> {% endcomment %}
+            </div>
+        </div>
+
+        <!-- Founder 4 -->
+        <div class="card founder-card">
+            {% comment %} <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOH62CVyc1cLhlosxOIXjqOdmqtiN8jGQHoLrXCjCEVQ&s" class="card-img-top" alt="project 4"> {% endcomment %}
+            <div class="card-body">
+                <h5 class="card-title">payment app</h5>
+                {% comment %} <p class="card-text"><a href="https://yakkalaprudhviraj.github.io/Calculator/">Browse</a></p> {% endcomment %}
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br><br><br>
+    <div class="contact-section">
+
+        <div class="contact-info">
+            <p><strong>THANK YOU</strong> </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+    /* CSS for card styling */
+    
+    .card {
+        border: none;
+        transition: transform 0.2s ease;
+    }
+    
+    .card:hover {
+        transform: scale(1.05);
+        /* Scale up the card on hover */
+    }
+    
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .founder-card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        /* Add background shadow */
+        background-color: #f5f5f5;
+        /* Add background color */
+        transition: transform 0.2s ease;
+    }
+    
+    .founder-card:hover {
+        transform: scale(1.05);
+        /* Scale up the card on hover */
+    }
+    
+    .card-title {
+        font-size: 18px;
+        color: #333;
+        /* Add font color */
+    }
+    
+    .card-text {
+        color: #666;
+        /* Add font color */
+    }
+    
+    .contact-section {
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    
+    .contact-info {
+        margin-top: 20px;
+    }
+    
+    .contact-info p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+</style>
+{% endblock %}
